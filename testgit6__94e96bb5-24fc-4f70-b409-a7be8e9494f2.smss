@@ -1,0 +1,12 @@
+Base Properties
+ENGINE	94e96bb5-24fc-4f70-b409-a7be8e9494f2
+ENGINE_ALIAS	testgit6
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_INSIGHTS	db/@ENGINE@/insights_database
+RDBMS_INSIGHTS_TYPE	H2_DB
+OWL	db/@ENGINE@/testgit6_OWL.OWL
+RDBMS_TYPE	H2_DB
+DRIVER	org.h2.Driver
+USERNAME	sa
+PASSWORD	
+CONNECTION_URL	jdbc:h2:nio:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768
